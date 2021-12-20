@@ -1,0 +1,37 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/GeorgievskaEmilija/wbs-foaf/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/GeorgievskaEmilija/wbs-foaf/master/foaf.ttl> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/GeorgievskaEmilija/wbs-foaf/master/foaf.ttl> .
+  
+<https://raw.githubusercontent.com/GeorgievskaEmilija/wbs-foaf/master/foaf.ttl>
+  a foaf:Person ;
+  foaf:name "Emilija Georgievska" ;
+  foaf:title "Ms" ;
+  foaf:givenname "Emilija" ;
+  foaf:family_name "Georgievska" ;
+  foaf:nick "Emche" ;
+  foaf:based_near "Tetovo, Macedonia" ;
+  foaf:account 		<https://www.linkedin.com/in/emilija-georgievska-644b91198/> ;
+  foaf:mbox_sha1sum "b0d03fce499aa7696467ed1d15012b2cfccc1f52" ;
+  foaf:workplaceHomepage <https://www.endava.com/> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/en> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Jelena Ognjanoska" ;
+    foaf:mbox_sha1sum "d8b4eae97d0aee756abd9b40663d115e83d1344d" ;
+    rdfs:seeAlso <https://gitlab.com/ognjanoskajelena/foaf/-/raw/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Martina Stojanoska" ;
+    foaf:mbox_sha1sum "16917b11d11fc1c502c6a77ec1c5e0eb395b8356" ;
+    rdfs:seeAlso <https://gitlab.com/MartinaS14/wbs/-/raw/main/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Robert Ilievski" ;
+    foaf:mbox_sha1sum "033fee7bbc8b85c298c46943829a4a1d1ebf93c6" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl?fbclid=IwAR2wPfVgiZ_FyUgAvx26J15NAYPxCuw396cavhWyGCYXqRRb5HUDKgi24CI>
+  ] .
